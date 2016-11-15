@@ -1,17 +1,31 @@
 {
-  "name": "mytasklist",
+  "name": "meanproject",
   "version": "1.0.0",
   "description": "Simple task manager",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Anand B",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "mongojs": "^2.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0827bala/meanproject.git"
+  },
+  "keywords": [
+    "Mean",
+    "Project"
+  ],
+  "bugs": {
+    "url": "https://github.com/0827bala/meanproject/issues"
+  },
+  "homepage": "https://github.com/0827bala/meanproject#readme"
 }
